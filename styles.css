@@ -1,0 +1,67 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Background and General Styling */
+body {
+    background-color: #0e0b16;
+    color: #e7dfdd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #a239ca;
+}
+
+header p {
+    color: #4717f6;
+}
+
+.tux {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+/* Journal Entries */
+.journal-entries {
+    max-width: 800px;
+    width: 90%;
+    padding: 20px;
+}
+
+article {
+    background-color: #1b1b2f;
+    border: 1px solid #4ecca3;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+article h2 {
+    color: #4ecca3;
+}
+
+article p:first-of-type {
+    color: #a239ca;
+    font-size: 0.9em;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 30px;
+    color: #4717f6;
+    font-size: 0.8em;
+}
